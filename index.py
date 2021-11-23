@@ -1,16 +1,8 @@
-from flask import Flask, request
 import requests
 from bs4 import BeautifulSoup
-import time
 import json
-from datetime import datetime
 
 
-
-
-
-
-app = Flask(__name__)
 
 _headings = []
 _article_links = []
@@ -267,5 +259,3 @@ jsonCompilationInternational()
 firstPage()
 secondPage()
 jsonCompilation()
-    
-
